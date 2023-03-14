@@ -1,0 +1,119 @@
+2023-03-14 14:00:11,075 INFO    MainThread:22564 [internal.py:wandb_internal():90] W&B internal server running at pid: 22564, started at: 2023-03-14 14:00:11.075453
+2023-03-14 14:00:11,075 INFO    WriterThread:22564 [datastore.py:open_for_write():75] open: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\run-30vjiqkl.wandb
+2023-03-14 14:00:11,302 DEBUG   SenderThread:22564 [sender.py:send():235] send: header
+2023-03-14 14:00:11,302 DEBUG   SenderThread:22564 [sender.py:send():235] send: run
+2023-03-14 14:00:11,610 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: check_version
+2023-03-14 14:00:11,610 INFO    SenderThread:22564 [dir_watcher.py:__init__():205] watching files in: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files
+2023-03-14 14:00:11,610 INFO    SenderThread:22564 [sender.py:_start_run_threads():812] run started: 30vjiqkl with start time 1678770010
+2023-03-14 14:00:11,610 DEBUG   SenderThread:22564 [sender.py:send():235] send: summary
+2023-03-14 14:00:11,610 INFO    SenderThread:22564 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2023-03-14 14:00:11,610 DEBUG   SenderThread:22564 [sender.py:send_request():249] send_request: check_version
+2023-03-14 14:00:11,663 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: run_start
+2023-03-14 14:00:11,699 DEBUG   HandlerThread:22564 [meta.py:__init__():35] meta init
+2023-03-14 14:00:11,699 DEBUG   HandlerThread:22564 [meta.py:__init__():49] meta init done
+2023-03-14 14:00:11,699 DEBUG   HandlerThread:22564 [meta.py:probe():209] probe
+2023-03-14 14:00:11,715 DEBUG   HandlerThread:22564 [meta.py:_save_pip():53] save pip
+2023-03-14 14:00:11,715 DEBUG   HandlerThread:22564 [meta.py:_save_pip():67] save pip done
+2023-03-14 14:00:11,715 DEBUG   HandlerThread:22564 [meta.py:_save_conda():74] save conda
+2023-03-14 14:00:11,715 ERROR   HandlerThread:22564 [meta.py:_save_conda():83] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\meta.py", line 79, in _save_conda
+    subprocess.call(
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+2023-03-14 14:00:11,715 DEBUG   HandlerThread:22564 [meta.py:_save_conda():84] save conda done
+2023-03-14 14:00:11,715 DEBUG   HandlerThread:22564 [meta.py:probe():247] probe done
+2023-03-14 14:00:11,921 DEBUG   SenderThread:22564 [sender.py:send():235] send: files
+2023-03-14 14:00:11,921 INFO    SenderThread:22564 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2023-03-14 14:00:11,945 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-14 14:00:11,945 DEBUG   SenderThread:22564 [sender.py:send_request():249] send_request: stop_status
+2023-03-14 14:00:11,947 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: pause
+2023-03-14 14:00:11,947 INFO    HandlerThread:22564 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-03-14 14:00:12,026 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: resume
+2023-03-14 14:00:12,026 INFO    HandlerThread:22564 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-03-14 14:00:12,026 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: pause
+2023-03-14 14:00:12,026 INFO    HandlerThread:22564 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-03-14 14:00:12,113 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: resume
+2023-03-14 14:00:12,113 INFO    HandlerThread:22564 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-03-14 14:00:12,148 DEBUG   SenderThread:22564 [sender.py:send():235] send: telemetry
+2023-03-14 14:00:12,148 DEBUG   SenderThread:22564 [sender.py:send():235] send: stats
+2023-03-14 14:00:12,148 DEBUG   SenderThread:22564 [sender.py:send():235] send: stats
+2023-03-14 14:00:12,148 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: pause
+2023-03-14 14:00:12,148 INFO    HandlerThread:22564 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-03-14 14:00:12,292 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: resume
+2023-03-14 14:00:12,292 INFO    HandlerThread:22564 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-03-14 14:00:12,292 DEBUG   SenderThread:22564 [sender.py:send():235] send: stats
+2023-03-14 14:00:12,627 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\requirements.txt
+2023-03-14 14:00:12,627 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\wandb-metadata.json
+2023-03-14 14:00:12,627 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\wandb-summary.json
+2023-03-14 14:00:12,627 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:12,627 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\conda-environment.yaml
+2023-03-14 14:00:12,793 INFO    Thread-11 :22564 [upload_job.py:push():132] Uploaded file C:\Users\JAYDEN~1\AppData\Local\Temp\2\tmp5kq6zssawandb\1bmuieiv-wandb-metadata.json
+2023-03-14 14:00:14,645 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:16,657 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:19,573 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: pause
+2023-03-14 14:00:19,573 INFO    HandlerThread:22564 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-03-14 14:00:19,723 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: resume
+2023-03-14 14:00:19,723 INFO    HandlerThread:22564 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-03-14 14:00:19,723 DEBUG   SenderThread:22564 [sender.py:send():235] send: stats
+2023-03-14 14:00:21,726 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: pause
+2023-03-14 14:00:21,726 INFO    HandlerThread:22564 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-03-14 14:00:21,792 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: resume
+2023-03-14 14:00:21,792 INFO    HandlerThread:22564 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-03-14 14:00:21,792 DEBUG   SenderThread:22564 [sender.py:send():235] send: stats
+2023-03-14 14:00:24,673 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:27,160 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-14 14:00:27,160 DEBUG   SenderThread:22564 [sender.py:send_request():249] send_request: stop_status
+2023-03-14 14:00:27,529 DEBUG   SenderThread:22564 [sender.py:send():235] send: config
+2023-03-14 14:00:28,727 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:31,925 DEBUG   HandlerThread:22564 [handler.py:handle_request():141] handle_request: pause
+2023-03-14 14:00:31,925 INFO    HandlerThread:22564 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-03-14 14:00:32,035 DEBUG   SenderThread:22564 [sender.py:send():235] send: stats
+2023-03-14 14:00:34,755 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:41,634 ERROR   SenderThread:22564 [internal_api.py:execute():143] 409 response executing GraphQL.
+2023-03-14 14:00:41,635 ERROR   SenderThread:22564 [internal_api.py:execute():144] {"errors":[{"message":"run respwill/disaster_tweet_classification/30vjiqkl was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-03-14 14:00:42,065 INFO    WriterThread:22564 [datastore.py:close():279] close: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\run-30vjiqkl.wandb
+2023-03-14 14:00:42,378 INFO    HandlerThread:22564 [handler.py:finish():806] shutting down handler
+2023-03-14 14:00:42,378 ERROR   MainThread:22564 [internal.py:wandb_internal():165] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\apis\normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1319, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\lib\retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\requests\models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 51, in run
+    self._run()
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 95, in _run
+    self._debounce()
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\internal.py", line 316, in _debounce
+    self._sm.debounce()
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\sender.py", line 320, in debounce
+    self._debounce_config()
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\sdk\internal\sender.py", line 326, in _debounce_config
+    self._api.upsert_run(
+  File "C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\wandb\apis\normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>
+2023-03-14 14:00:43,820 INFO    Thread-7  :22564 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\wandb\run-20230314_140010-30vjiqkl\files\output.log
+2023-03-14 14:00:44,405 INFO    MainThread:22564 [internal.py:handle_exit():80] Internal process exited

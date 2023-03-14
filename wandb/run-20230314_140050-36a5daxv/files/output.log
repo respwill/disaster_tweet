@@ -1,0 +1,60 @@
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\loggers\wandb.py:347: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\jaydenpark\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\jaydenpark\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_10984\1705242294.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_10984\1705242294.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_10984\1705242294.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertForSequenceClassification: ['vocab_projector.weight', 'vocab_projector.bias', 'vocab_transform.bias', 'vocab_layer_norm.bias', 'vocab_layer_norm.weight', 'vocab_transform.weight']
+- This IS expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['pre_classifier.bias', 'classifier.bias', 'pre_classifier.weight', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_10984\1705242294.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_10984\1705242294.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_10984\1705242294.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\callbacks\model_checkpoint.py:611: UserWarning: Checkpoint directory C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\check_point exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+  | Name               | Type                                | Params
+---------------------------------------------------------------------------
+0 | lstm1              | LSTM                                | 2.4 M
+1 | lstm2              | LSTM                                | 3.2 M
+2 | lstm3              | LSTM                                | 3.2 M
+3 | relu1              | Sequential                          | 172 K
+4 | sigmoid            | Sigmoid                             | 0
+5 | accuracy           | Accuracy                            | 0
+6 | hugging_face_model | DistilBertForSequenceClassification | 67.0 M
+---------------------------------------------------------------------------
+75.8 M    Trainable params
+0         Non-trainable params
+75.8 M    Total params
+303.208   Total estimated model params size (MB)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:240: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\trainer.py:1933: PossibleUserWarning: The number of training batches (45) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\trainer.py:726: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  rank_zero_warn("Detected KeyboardInterrupt, attempting graceful shutdown...")
