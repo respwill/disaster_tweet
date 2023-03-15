@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-03-15T01:19:35.726869",
+    "startedAt": "2023-03-15T01:19:34.310753",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/GitHub/disaster_tweet/Tweet_disaster_classifier.ipynb",
+    "root": "C:\\Users\\jaydenpark",
+    "host": "AIDEV01",
+    "username": "jaydenpark",
+    "executable": "C:\\Users\\jaydenpark\\Anaconda3\\envs\\nlp3\\python.exe"
+}
