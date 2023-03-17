@@ -1,0 +1,183 @@
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\loggers\wandb.py:347: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\jaydenpark\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\jaydenpark\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+"learning_rate": 3e-06
+"vocab_size":    30522
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:240: PossibleUserWarning: The dataloader, predict_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+"learning_rate": 3e-06
+"vocab_size":    30522
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_29228\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:240: PossibleUserWarning: The dataloader, predict_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+{'input_ids': tensor([  101, 15046,  3114,  8372,  2089, 16455,  9641,  1057,   102,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0]), 'attention_mask': tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0]), 'labels': tensor([1.])}
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+{'input_ids': tensor([[  101, 26865,  3049,  ...,     0,     0,     0],
+        [  101, 13141,  5674,  ...,     0,     0,     0],
+        [  101,  1059, 11961,  ...,     0,     0,     0],
+        ...,
+        [  101,  2668,  2158,  ...,     0,     0,     0],
+        [  101,  6497,  1001,  ...,     0,     0,     0],
+        [  101,  3748, 10273,  ...,     0,     0,     0]]), 'attention_mask': tensor([[1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        ...,
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0]]), 'labels': tensor([[0.],
+        [0.],
+        [1.],
+        [0.],
+        [0.],
+        [1.],
+        [1.],
+        [0.],
+        [0.],
+        [1.],
+        [0.],
+        [1.],
+        [0.],
+        [1.],
+        [1.],
+        [1.],
+        [0.],
+        [0.],
+        [1.],
+        [0.],
+        [1.],
+        [1.],
+        [1.],
+        [0.],
+        [0.],
+        [0.],
+        [0.],
+        [1.],
+        [0.],
+        [0.],
+        [1.],
+        [1.]])}
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:150: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.asarray(y)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:154: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.array(y, dtype=object)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:286: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.asarray(y)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:290: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.asarray(y, dtype=object)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:150: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.asarray(y)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:154: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.array(y, dtype=object)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:286: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.asarray(y)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\sklearn\utils\multiclass.py:290: FutureWarning: The input object of type 'Tensor' is an array-like implementing one of the corresponding protocols (`__array__`, `__array_interface__` or `__array_struct__`); but not a sequence (or 0-D). In the future, this object will be coerced as if it was first converted using `np.array(obj)`. To retain the old behaviour, you have to either modify the type 'Tensor', or assign to an empty array created with `np.empty(correct_shape, dtype=object)`.
+  y = np.asarray(y, dtype=object)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+"learning_rate": 3e-06
+"vocab_size":    30522
+"learning_rate": 3e-06
+"vocab_size":    30522
+"learning_rate": 3e-06
+"vocab_size":    30522
+"learning_rate": 3e-06
+"vocab_size":    30522
+"learning_rate": 3e-06
+"vocab_size":    30522

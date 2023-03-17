@@ -1,0 +1,49 @@
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\loggers\wandb.py:347: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\jaydenpark\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\jaydenpark\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_21784\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_21784\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_21784\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+"learning_rate": 3e-06
+"vocab_size":    250002
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_21784\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_21784\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_21784\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\callbacks\model_checkpoint.py:611: UserWarning: Checkpoint directory C:\Users\jaydenpark\Documents\GitHub\disaster_tweet\check_point exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+  | Name               | Type                                | Params
+---------------------------------------------------------------------------
+0 | accuracy           | Accuracy                            | 0
+1 | hugging_face_model | XLMRobertaForSequenceClassification | 278 M
+---------------------------------------------------------------------------
+278 M     Trainable params
+0         Non-trainable params
+278 M     Total params
+1,112.178 Total estimated model params size (MB)
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\transformers\tokenization_utils_base.py:2285: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:240: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(

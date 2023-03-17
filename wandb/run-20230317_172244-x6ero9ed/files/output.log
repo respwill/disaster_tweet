@@ -1,0 +1,14 @@
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\pytorch_lightning\loggers\wandb.py:347: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+C:\Users\jaydenpark\Anaconda3\envs\nlp3\lib\site-packages\bs4\__init__.py:435: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_26368\4243067082.py:74: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(':\(', 'sadness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_26368\4243067082.py:75: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r':\)[$|\s]*', 'happiness ')
+C:\Users\jaydenpark\AppData\Local\Temp\2\ipykernel_26368\4243067082.py:76: FutureWarning: The default value of regex will change from True to False in a future version.
+  data['tweet'] = data['tweet'].str.replace(r'\;\)[$|\s]*', 'happiness ')
